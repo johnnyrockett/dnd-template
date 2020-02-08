@@ -141,7 +141,7 @@
                     <label for="Athletics">Athletics <span class="skill">(Str)</span></label><input name="Athletics" placeholder="+0" type="text" /><input name="Athletics-prof" type="checkbox" />
                 </li>
                 <li>
-                    <label for="Deception">Deception <span class="skill">(Cha)</span></label><input name="Deception" placeholder="+0" type="text" /><input name="Deception-prof" type="checkbox" /><input name="Deception-prof" type="checkbox" />
+                    <label for="Deception">Deception <span class="skill">(Cha)</span></label><input name="Deception" placeholder="+0" type="text" /><input name="Deception-prof" type="checkbox" />
                 </li>
                 <li>
                     <label for="History">History <span class="skill">(Int)</span></label><input name="History" placeholder="+0" type="text" /><input name="History-prof" type="checkbox" />
@@ -168,7 +168,7 @@
                     <label for="Performance">Performance <span class="skill">(Cha)</span></label><input name="Performance" placeholder="+0" type="text" /><input name="Performance-prof" type="checkbox" />
                 </li>
                 <li>
-                    <label for="Persuasion">Persuasion <span class="skill">(Cha)</span></label><input name="Persuasion" placeholder="+0" type="text" /><input name="Persuasion-prof" type="checkbox" /><input name="Persuasion-prof" type="checkbox" />
+                    <label for="Persuasion">Persuasion <span class="skill">(Cha)</span></label><input name="Persuasion" placeholder="+0" type="text" /><input name="Persuasion-prof" type="checkbox" />
                 </li>
                 <li>
                     <label for="Religion">Religion <span class="skill">(Int)</span></label><input name="Religion" placeholder="+0" type="text" /><input name="Religion-prof" type="checkbox" />
@@ -278,44 +278,11 @@
                     Atk Bonus
                     </th>
                     <th>
-                    Damage/Type
+                    Damage
                     </th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>
-                    <input name="atkname1" type="text" />
-                    </td>
-                    <td>
-                    <input name="atkbonus1" type="text" />
-                    </td>
-                    <td>
-                    <input name="atkdamage1" type="text" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    <input name="atkname2" type="text" />
-                    </td>
-                    <td>
-                    <input name="atkbonus2" type="text" />
-                    </td>
-                    <td>
-                    <input name="atkdamage2" type="text" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                    <input name="atkname3" type="text" />
-                    </td>
-                    <td>
-                    <input name="atkbonus3" type="text" />
-                    </td>
-                    <td>
-                    <input name="atkdamage3" type="text" />
-                    </td>
-                </tr>
+                <tbody name="weapons">
                 </tbody>
             </table>
             <textarea></textarea>
@@ -371,7 +338,9 @@
     </main>
     </form>
 
+    <script src="utils.js"></script>
     <script src="values.js"></script>
+    <script src="integration.js"></script>
 
 </body>
 </html>
