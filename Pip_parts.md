@@ -30,6 +30,27 @@
 
 ## Magic
 
+### Special
+<div class=tab>
+    <details><summary>Bardic Inspiration<input type="checkbox"> <input type="checkbox"> <input type="checkbox"><input type="checkbox"><input type="checkbox"></summary>
+You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+
+Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+    </details>
+    <details><summary>Song of Rest</summary>
+Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.
+
+The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.
+    </details>
+    <details><summary>Font of Inspiration</summary>
+Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.
+    </details>
+</div>
+
 ### Cantips
 <div class=tab>
     <details><summary>Mending</summary>
@@ -98,16 +119,34 @@ A creature you touch becomes Invisible until the spell ends. Anything the target
 
 At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 </details>
-<details><summary>Darkness</summary>
-Magical darkness spreads from a point you choose within range to fill a 15-foot radius sphere for the duration.
-The darkness spreads around corners. A creature with darkvision can’t see through this darkness, and nonmagical light can’t illuminate it.
-
-If the point you choose is on an object you are holding or one that isn’t being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.
-
-If any of this spell’s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.
+<details><summary>See Invisibility</summary>
+For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.
 </details>
 <details><summary>Mind Spike</summary>
 You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it’s invisible, it gains no benefit from that condition against you.
+</details>
+</div>
+
+### 3nd Level  <input type="checkbox"> <input type="checkbox"><input type="checkbox">
+<div class=tab>
+<details><summary>Lightning Bolt</summary>
+A stroke of lightning forming a line of 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.
+
+The lightning ignites flammable Objects in the area that aren't being worn or carried.
+
+At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot above 3rd.
+</details>
+</div>
+<div class=tab>
+<details><summary>Sending</summary>
+You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.
+You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn’t arrive.
+</details>
+</div>
+<div class=tab>
+<details><summary>Mass healing Word</summary>
+As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd. Range 60 ft.
 </details>
 </div>
 

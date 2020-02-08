@@ -1,6 +1,6 @@
 // My info
 var name = "Pip Pip Perre";
-var gold = 975;
+var gold = 958;
 var silver = 5;
 
 var armorAC = 11; // leather armor
@@ -13,7 +13,9 @@ var intelligence = 12;
 var wisdom = 10;
 var charisma = 20;
 
-var health = 35;
+var health = 44;
+
+var damage = 0;
 
 var proficiency = 3;
 
@@ -56,7 +58,7 @@ function setStat(stat, prof, value) {
 setPlaceholder("charname", name);
 
 setPlaceholder("maxhp", health);
-setPlaceholder("currenthp", health);
+setPlaceholder("currenthp", health - damage);
 
 setPlaceholder("proficiencybonus", "+" + proficiency);
 setPlaceholder("initiative", extractModString(dexterity));
