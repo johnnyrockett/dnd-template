@@ -1,11 +1,11 @@
 // My info
-var characterName = "Stuart";
-var realName = "Stuart";
+var characterName = "Bianca";
+var realName = "Bianca";
 var race = "Human";
-var clazz = "CSC";
+var clazz = "Art";
 var level = 0;
 var background = "Student";
-var alignment = "Chaotic Neutral";
+var alignment = "True Neutral";
 var xp = 0;
 
 // Extra info
