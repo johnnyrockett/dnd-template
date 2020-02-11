@@ -1,8 +1,8 @@
 // My info
-var characterName = "Bianca";
-var realName = "Bianca";
+var characterName = "Colin";
+var realName = "Colin";
 var race = "Human";
-var clazz = "Art";
+var clazz = "CSC";
 var level = 0;
 var background = "Student";
 var alignment = "True Neutral";
