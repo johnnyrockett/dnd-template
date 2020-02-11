@@ -18,12 +18,13 @@ setPlaceholder("temphp", tempHealth);
 
 setPlaceholder("proficiencybonus", "+" + proficiency);
 setPlaceholder("initiative", extractModString(dexterity));
+setPlaceholder("totalhd", hitdice);
 
 setPlaceholder("ac", extractMod(acAttribute) + armorAC);
 setPlaceholder("spellDC", 8 + extractMod(spellDCAttribute) + proficiency);
 
-setPlaceholder("gp", gold);
-setPlaceholder("sp", silver);
+setPlaceholder("dollars", dollars);
+setPlaceholder("cents", cents);
 
 setPlaceholder("speed", speed);
 
@@ -56,16 +57,21 @@ setPlaceholder("Charismamod", extractModString(charisma));
 // setStat('Intelligence-save', 'Intelligence-save-prof', intelligence);
 // setStat('Charisma-save', 'Charisma-save-prof', charisma);
 
+for(prof of proficiencies) {
+    prof = prof.charAt(0).toUpperCase() + prof.slice(1);
+    for(e of document.getElementsByName(prof + '-prof')) {
+        if(!e.checked) {
+            e.checked = true;
+            break;
+        }
+    }
+}
+
+for(expert of expertise) {
+    expert = expert.charAt(0).toUpperCase() + expert.slice(1);
+}
+
 // document.getElementsByName('Perception-prof')[0].checked = true;
-// document.getElementsByName('Acrobatics-prof')[0].checked = true;
-// document.getElementsByName('Deception-prof')[0].checked = true;
-// document.getElementsByName('History-prof')[0].checked = true;
-// document.getElementsByName('Nature-prof')[0].checked = true;
-// document.getElementsByName('Performance-prof')[0].checked = true;
-// document.getElementsByName('Deception-prof')[0].checked = true;
-// document.getElementsByName('Deception-prof')[1].checked = true;
-// document.getElementsByName('Persuasion-prof')[0].checked = true;
-// document.getElementsByName('Persuasion-prof')[1].checked = true;
 
 items = document.getElementsByClassName('skills list-section box')[0].getElementsByTagName('ul')[0].getElementsByTagName('li')
 // console.log(items)

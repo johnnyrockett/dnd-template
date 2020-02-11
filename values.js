@@ -1,27 +1,28 @@
 // My info
-var characterName = "Character Name";
-var realName = "Johnny";
+var characterName = "Sam";
+var realName = "Sam";
 var race = "Human";
-var clazz = "Lover";
-var level = 1;
+var clazz = "CSC";
+var level = 0;
 var background = "Student";
-var alignment = "True Neutral";
+var alignment = "Chaotic Neutral";
 var xp = 0;
 
 // Extra info
-var personality = "Quirky and not like the other girls";
-var ideals = "and sometimes ydeals";
-var bonds = "James";
-var flaws = "Too honest";
+var personality = "";
+var ideals = "";
+var bonds = "";
+var flaws = "";
 
 var hitdice = "2d8";
 var proficiency = 2;
-var expertise = ["Deception", "Persuasion"];
+var proficiencies = [];
+var expertise = [];
 var speed = 25;
 
 // Money
-var gold = 100;
-var silver = 100;
+var dollars = 0;
+var cents = 0;
 
 // Stats
 var health = 10;
@@ -36,7 +37,7 @@ var intelligence = 10;
 var wisdom = 10;
 var charisma = 10;
 
-var armorAC = 11; // leather armor
+var armorAC = 10;
 var acAttribute = dexterity;
 var spellDCAttribute = charisma;
 
