@@ -1,11 +1,11 @@
 // My info
-var characterName = "Alex";
-var realName = "Alex";
+var characterName = "Stuart";
+var realName = "Stuart";
 var race = "Human";
 var clazz = "CSC";
 var level = 0;
 var background = "Student";
-var alignment = "Lawful Neutral";
+var alignment = "Chaotic Neutral";
 var xp = 0;
 
 // Extra info
