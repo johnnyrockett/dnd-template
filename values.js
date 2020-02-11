@@ -42,5 +42,5 @@ var acAttribute = dexterity;
 var spellDCAttribute = charisma;
 
 var weapons = [
-    new Weapon("rusty spoon", "+1", "1d4", "")
+    // new Weapon("rusty spoon", "+1", "1d4", "")
 ]
