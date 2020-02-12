@@ -21,7 +21,7 @@ function extractMod(score) {
 }
 
 function addSign(score) {
-    var sign = score < 0 ? '-' : '+';
+    var sign = score < 0 ? '' : '+';
     return sign + score;
 }
 
