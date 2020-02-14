@@ -1,9 +1,9 @@
 // My info
 var characterName = "Stuart";
 var realName = "Stuart";
-var race = "Human";
-var clazz = "CSC";
-var level = 0;
+var race = "Black Dragonborn";
+var clazz = "Rogue";
+var level = 1;
 var background = "Student";
 var alignment = "Chaotic Neutral";
 var xp = 0;
@@ -14,28 +14,28 @@ var ideals = "";
 var bonds = "";
 var flaws = "";
 
-var hitdice = "2d8";
+var hitdice = "1d8";
 var proficiency = 2;
-var proficiencies = [];
-var expertise = [];
-var speed = 25;
+var proficiencies = ['dexterity', 'intelligence', 'Acrobatics', 'Athletics', 'Deception', 'Intimidation'];
+var expertise = ['Deception', 'Athletics'];
+var speed = 30;
 
 // Money
 var dollars = 0;
 var cents = 0;
 
 // Stats
-var health = 10;
+var health = 9;
 var tempHealth = 0;
 var damage = 0;
 
 // Attributes
-var strength = 10;
-var dexterity = 10;
-var constitution = 10;
-var intelligence = 10;
+var strength = 11;
+var dexterity = 14;
+var constitution = 13;
+var intelligence = 12;
 var wisdom = 10;
-var charisma = 10;
+var charisma = 16;
 
 var armorAC = 10;
 var acAttribute = dexterity;
