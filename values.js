@@ -18,7 +18,7 @@ var hitdice = "1d10";
 var proficiency = 2;
 var proficiencies = ["strength", "constitution", "Intimidation", "Survival"];
 var expertise = [];
-var speed = 25;
+var speed = 30;
 
 // Money
 var dollars = 0;
