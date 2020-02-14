@@ -14,14 +14,14 @@ function setTextArea(name, msg) {
 
 function extractMod(score) {
     var dif = score - 10;
-    var negative = dif < 0;
-    dif = Math.abs(dif);
-    dif = Math.trunc(dif / 2);
-    return negative ? dif * -1 : dif;
+    if (dif > 0)
+        return Math.trunc(dif/2)
+    else
+        return -1 * Math.trunc(Math.abs((dif-1)/2))
 }
 
 function addSign(score) {
-    var sign = score < 0 ? '-' : '+';
+    var sign = score < 0 ? '' : '+';
     return sign + score;
 }
 
