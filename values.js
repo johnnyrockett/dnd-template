@@ -1,11 +1,11 @@
 // My info
 var characterName = "Alex";
 var realName = "Alex";
-var race = "Human";
-var clazz = "CSC";
-var level = 0;
+var race = "Kenku";
+var clazz = "Bard";
+var level = 1;
 var background = "Student";
-var alignment = "Lawful Neutral";
+var alignment = "True Neutral";
 var xp = 0;
 
 // Extra info
@@ -14,28 +14,28 @@ var ideals = "";
 var bonds = "";
 var flaws = "";
 
-var hitdice = "2d8";
+var hitdice = "1d8";
 var proficiency = 2;
-var proficiencies = [];
+var proficiencies = ['Deception', 'dexterity', 'charisma', 'Persuasion', 'Sleight of Hand', 'Nature'];
 var expertise = [];
-var speed = 25;
+var speed = 30;
 
 // Money
 var dollars = 0;
 var cents = 0;
 
 // Stats
-var health = 10;
+var health = 9;
 var tempHealth = 0;
 var damage = 0;
 
 // Attributes
-var strength = 10;
-var dexterity = 10;
-var constitution = 10;
-var intelligence = 10;
-var wisdom = 10;
-var charisma = 10;
+var strength = 9;
+var dexterity = 16;
+var constitution = 12;
+var intelligence = 13;
+var wisdom = 11;
+var charisma = 15;
 
 var armorAC = 10;
 var acAttribute = dexterity;
