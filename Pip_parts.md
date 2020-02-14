@@ -156,7 +156,7 @@ At Higher Levels. When you cast this spell using a spell slot of 4th level or hi
 <details><summary>My Liquids:</summary>
     <ul>
         <li>greenish <-- plants&animals (unlocked)</li>
-        <li>silvery gray <-- technology</li>
+        <li>silvery gray <-- technology (unlocked)</li>
         <li>jet black</li>
         <li>blue <-- Mind (unlocked)</li>
         <li>brownish red <-- Earth</li>

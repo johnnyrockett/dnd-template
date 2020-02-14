@@ -6,9 +6,9 @@ var silver = 5;
 var armorAC = 11; // leather armor
 
 // My stats
-var strength = 11;
+var strength = 10;
 var dexterity = 16;
-var constitution = 16;
+var constitution = 14;
 var intelligence = 12;
 var wisdom = 10;
 var charisma = 20;
