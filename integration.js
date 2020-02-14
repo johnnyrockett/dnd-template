@@ -57,6 +57,11 @@ setPlaceholder("Charismamod", extractModString(charisma));
 // setStat('Intelligence-save', 'Intelligence-save-prof', intelligence);
 // setStat('Charisma-save', 'Charisma-save-prof', charisma);
 
+
+for(expert of expertise) {
+    expert = expert.charAt(0).toUpperCase() + expert.slice(1);
+}
+
 for(prof of proficiencies) {
     prof = prof.charAt(0).toUpperCase() + prof.slice(1);
     for(e of document.getElementsByName(prof + '-prof')) {
@@ -65,11 +70,20 @@ for(prof of proficiencies) {
             break;
         }
     }
+    for(e of document.getElementsByName(prof + '-save-prof')) {
+        if(!e.checked) {
+            e.checked = true;
+            break;
+        }
+    }
 }
 
-for(expert of expertise) {
-    expert = expert.charAt(0).toUpperCase() + expert.slice(1);
-}
+setStat('Strength-save', 'Strength-save-prof', strength);
+setStat('Dexterity-save', 'Dexterity-save-prof', dexterity);
+setStat('Constitution-save', 'Constitution-save-prof', constitution);
+setStat('Wisdom-save', 'Wisdom-save-prof', wisdom);
+setStat('Intelligence-save', 'Intelligence-save-prof', intelligence);
+setStat('Charisma-save', 'Charisma-save-prof', charisma);
 
 // document.getElementsByName('Perception-prof')[0].checked = true;
 
