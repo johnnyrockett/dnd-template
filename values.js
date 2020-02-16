@@ -18,7 +18,7 @@ var hitdice = "2d8";
 var proficiency = 2;
 var proficiencies = [];
 var expertise = [];
-var speed = 25;
+var speed = 30;
 
 // Money
 var dollars = 0;
@@ -30,12 +30,12 @@ var tempHealth = 0;
 var damage = 0;
 
 // Attributes
-var strength = 10;
+var strength = 12;
 var dexterity = 10;
 var constitution = 10;
 var intelligence = 10;
 var wisdom = 10;
-var charisma = 10;
+var charisma = 11;
 
 var armorAC = 10;
 var acAttribute = dexterity;
